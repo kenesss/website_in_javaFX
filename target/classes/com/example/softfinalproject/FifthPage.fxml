@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1330.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softfinalproject.FifthPageController">
+   <children>
+      <Text fill="WHITE" layoutX="557.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GALLERY" wrappingWidth="165.34375">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="339.0" layoutY="14.0" prefHeight="72.0" prefWidth="87.0" />
+      <AnchorPane layoutX="10.0" layoutY="141.0" prefHeight="200.0" prefWidth="329.0">
+         <children>
+            <ImageView fitHeight="231.0" fitWidth="373.0" layoutX="27.0" layoutY="-31.0">
+               <image>
+                  <Image url="@gallery-1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="339.0" layoutY="141.0" prefHeight="200.0" prefWidth="329.0" />
+      <AnchorPane layoutX="668.0" layoutY="141.0" prefHeight="200.0" prefWidth="329.0" />
+      <AnchorPane layoutX="10.0" layoutY="350.0" prefHeight="200.0" prefWidth="329.0">
+         <children>
+            <ImageView fitHeight="231.0" fitWidth="373.0" layoutX="27.0" layoutY="32.0">
+               <image>
+                  <Image url="@gallery-4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="339.0" layoutY="350.0" prefHeight="200.0" prefWidth="329.0" />
+      <AnchorPane layoutX="668.0" layoutY="350.0" prefHeight="200.0" prefWidth="329.0">
+         <children>
+            <ImageView fitHeight="237.0" fitWidth="373.0" layoutX="-226.0" layoutY="34.0">
+               <image>
+                  <Image url="@gallery-5.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Line endX="228.0" endY="209.0" layoutX="111.0" layoutY="341.0" startX="228.0" startY="-200.0" />
+      <Line endY="200.0" layoutX="668.0" layoutY="350.0" startY="-209.0" />
+      <Button fx:id="Home" layoutX="37.0" layoutY="35.0" mnemonicParsing="false" onAction="#HomeButtonPage" prefHeight="34.0" prefWidth="119.0" style="-fx-background-color: #ffd900;" text="HOME" />
+      <ImageView fitHeight="237.0" fitWidth="427.0" layoutX="831.0" layoutY="384.0">
+         <image>
+            <Image url="@gallery-6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="231.0" fitWidth="427.0" layoutX="831.0" layoutY="115.0">
+         <image>
+            <Image url="@gallery-3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="231.0" fitWidth="373.0" layoutX="440.0" layoutY="114.0">
+         <image>
+            <Image url="@gallery-2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="465.0" layoutY="28.0">
+         <image>
+            <Image url="@bg-title.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

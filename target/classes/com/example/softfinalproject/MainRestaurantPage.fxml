@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="6382.0" prefWidth="1272.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="6439.0" prefWidth="1330.0">
+         <children>
+            <AnchorPane prefHeight="700.0" prefWidth="1330.0" style="-fx-background-color: #000000;">
+               <children>
+                  <AnchorPane layoutY="84.0" prefHeight="613.0" prefWidth="1330.0">
+                     <children>
+                        <ImageView fitHeight="613.0" fitWidth="1330.0">
+                           <image>
+                              <Image url="@bg-header.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="SW_RESIZE" />
+                           </cursor>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="66.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias providentlaborum, recusandae delectus corrupti reprehenderit error distinctio eligendi quiconsequuntur officia." wrappingWidth="573.294921875">
+                           <font>
+                              <Font name="Bell MT" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="66.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEST QUALITY">
+                           <font>
+                              <Font name="Arial Black" size="76.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="66.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD">
+                           <font>
+                              <Font name="Arial Black" size="76.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="66.0" layoutY="438.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="207.0" style="-fx-background-color: #edc123;" text="BOOK A TABLE">
+                           <font>
+                              <Font name="Dubai Regular" size="21.0" />
+                           </font></Button>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="62.0" fitWidth="200.0" layoutX="26.0" layoutY="14.0">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="544.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOME">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="651.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT US">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="804.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHEFS">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="924.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1025.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GALLERY">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1138.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACTS">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="700.0" prefHeight="750.0" prefWidth="1330.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Text fill="WHITE" layoutX="418.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OUR SPECIAL DISHES">
+                     <font>
+                        <Font name="Arial Black" size="41.0" />
+                     </font>
+                  </Text>
+                  <ImageView layoutX="355.0" layoutY="23.0">
+                     <image>
+                        <Image url="@bg-title.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="420.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores." textAlignment="CENTER" wrappingWidth="490.634765625">
+                     <font>
+                        <Font name="Bell MT" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="665.0" layoutY="275.0">
+                     <image>
+                        <Image url="@product-5.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="415.0" layoutY="275.0">
+                     <image>
+                        <Image url="@product-3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="165.0" layoutY="275.0">
+                     <image>
+                        <Image url="@product-4.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="915.0" layoutY="275.0">
+                     <image>
+                        <Image url="@product-6.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="258.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASTA">
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="500.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BURGER">
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="693.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEEF BURGER MEAL">
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="929.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE CHEESE PIZZA">
+                     <font>
+                        <Font name="Arial Black" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="185.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="209.50390625">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="435.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="209.50390625">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="685.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="209.50390625">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="935.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="209.50390625">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffe500" layoutX="260.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$11.30">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font></Text>
+                  <Text fill="#ffe500" layoutX="511.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$8.6">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffe500" layoutX="771.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$12.99">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffe500" layoutX="1011.0" layoutY="667.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$15.00">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="1450.0" prefHeight="739.0" prefWidth="1330.0">
+               <children>
+                  <ImageView fitHeight="739.0" fitWidth="1330.0">
+                     <image>
+                        <Image url="@bg-pattern.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="689.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GOOD FOOD FOR YOUR ALL DAY GOOD MOOD" wrappingWidth="605.478515625">
+                     <font>
+                        <Font name="Arial Black" size="40.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="565.0" layoutY="104.0" prefHeight="33.0" prefWidth="78.0" />
+                  <ImageView layoutX="609.0" layoutY="38.0">
+                     <image>
+                        <Image url="@bg-title.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="604.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed." wrappingWidth="608.3720703125">
+                     <font>
+                        <Font name="Bell MT" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="604.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed." wrappingWidth="608.3720703125">
+                     <font>
+                        <Font name="Bell MT" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="604.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed." wrappingWidth="608.3720703125">
+                     <font>
+                        <Font name="Bell MT" size="19.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="612.0" layoutY="472.0" prefHeight="120.0" prefWidth="107.0">
+                     <children>
+                        <ImageView fitHeight="121.0" fitWidth="111.0" layoutX="-3.0">
+                           <image>
+                              <Image url="@advantage-1.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane layoutX="849.0" layoutY="471.0" prefHeight="124.0" prefWidth="118.0">
+                     <children>
+                        <ImageView fitHeight="123.0" fitWidth="120.0" layoutY="1.0">
+                           <image>
+                              <Image url="@advantage-2.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane layoutX="1086.0" layoutY="473.0" prefHeight="130.0" prefWidth="126.0">
+                     <children>
+                        <ImageView fitHeight="123.0" fitWidth="123.0" layoutX="1.0" layoutY="2.0">
+                           <image>
+                              <Image url="@advantage-3.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fill="WHITE" layoutX="570.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPERIENCED CHEFS">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="812.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORIGINAL RECIEPES">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1046.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FRESH INGREDIENTS">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="104.0" layoutY="103.0" prefHeight="497.0" prefWidth="378.0">
+                     <children>
+                        <ImageView fitHeight="498.0" fitWidth="393.0" layoutX="-1.0">
+                           <image>
+                              <Image url="@about-big.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="2188.0" prefHeight="642.0" prefWidth="1330.0">
+               <children>
+                  <ImageView fitHeight="641.0" fitWidth="1330.0">
+                     <image>
+                        <Image url="@bg-offer.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="30.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE CHEESE PIZZA 30% OFF FRIDAY ONLY" wrappingWidth="901.046875">
+                     <font>
+                        <Font name="Arial Black" size="59.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="30.0" layoutY="385.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="207.0" style="-fx-background-color: #edc123;" text="BOOK A TABLE">
+                     <font>
+                        <Font name="Dubai Regular" size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="2830.0" prefHeight="754.0" prefWidth="1330.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Text fill="WHITE" layoutX="538.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OUR BEST CHEF">
+                     <font>
+                        <Font name="Arial Black" size="28.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="458.0" layoutY="15.0" prefHeight="70.0" prefWidth="71.0">
+                     <children>
+                        <ImageView layoutX="2.0" layoutY="7.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="-15.0" layoutY="12.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fill="WHITE" layoutX="412.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores." textAlignment="CENTER" wrappingWidth="505.2021484375">
+                     <font>
+                        <Font name="Bell MT" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="300.0" fitWidth="250.0" layoutX="684.0" layoutY="236.0">
+                     <image>
+                        <Image url="@chef-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="300.0" fitWidth="250.0" layoutX="374.0" layoutY="236.0">
+                     <image>
+                        <Image url="@chef-4.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="300.0" fitWidth="250.0" layoutX="61.0" layoutY="236.0">
+                     <image>
+                        <Image url="@chef-3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="300.0" fitWidth="250.0" layoutX="997.0" layoutY="236.0">
+                     <image>
+                        <Image url="@chef-2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="108.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marco Pierre White">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="421.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anthony Bourdain">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="758.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paul Bocuse">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1044.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Charlie Trotter">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="61.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He has been part of several super hit television shows like MasterChef Australia and Hell’s Kitchen.He is also the youngest chef to be awarded 3 Michelin stars." textAlignment="CENTER" wrappingWidth="250.978515625">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="374.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He graduated from the Culinary School of America and then worked in several classy restaurants. He maintained a larger-than-life image in the restaurant fraternity of New York City and globally." textAlignment="CENTER" wrappingWidth="250.978515625">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="684.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He was actively involved in the Chef’s world even at the age of 92. He took his last breath on 20th January 2018. A lot of his students and followers are committed to taking the legacy forward in the decades to come." textAlignment="CENTER" wrappingWidth="250.978515625">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="997.0" layoutY="594.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Charlie is an American chef from Chicago and is one of the most popular TV chefs out there.She is also well known for her successful show PBS." textAlignment="CENTER" wrappingWidth="250.978515625">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="3584.0" prefHeight="1005.0" prefWidth="1330.0">
+               <children>
+                  <ImageView fitHeight="1005.0" fitWidth="1330.0">
+                     <image>
+                        <Image url="@bg-pattern.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="570.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OUR MENU">
+                     <font>
+                        <Font name="Arial Black" size="31.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="479.0" layoutY="14.0" prefHeight="76.0" prefWidth="84.0">
+                     <children>
+                        <ImageView layoutX="2.0" layoutY="7.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="3.0" layoutY="9.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="225.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="ALL">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="304.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="BURGERS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="435.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="BURGERS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="551.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="PIZZAS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="654.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="STEAKS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="759.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="PASTAS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="866.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="SALADS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="969.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="DESERTS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1085.0" layoutY="115.0" mnemonicParsing="false" style="-fx-background-color: #ffd900;" text="DRINKS">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Button>
+                  <AnchorPane layoutX="204.0" layoutY="201.0" prefHeight="195.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutY="3.0">
+                           <image>
+                              <Image url="@product-1.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="665.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1.0">
+                           <image>
+                              <Image url="@product-3.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="435.0" layoutY="201.0">
+                     <image>
+                        <Image url="@product-2.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="894.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1.0">
+                           <image>
+                              <Image url="@product-4.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="204.0" layoutY="591.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="-1.0" layoutY="1.0">
+                           <image>
+                              <Image url="@product-5.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="435.0" layoutY="592.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutY="-2.0">
+                           <image>
+                              <Image url="@product-6.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="665.0" layoutY="592.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1.0" layoutY="1.0">
+                           <image>
+                              <Image url="@product-7.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="894.0" layoutY="593.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="2.0" layoutY="-1.0">
+                           <image>
+                              <Image url="@product-8.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text layoutX="193.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <AnchorPane layoutX="435.0" layoutY="201.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1.0" layoutY="-1.0">
+                           <image>
+                              <Image url="@../../../../img/product-2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <Text fill="WHITE" layoutX="219.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE CHEESE PIZZA" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="500.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEAFOOD" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="680.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE MAC BURGER" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="966.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASTA" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="219.0" layoutY="815.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEEF CHEESE BURGER" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="450.0" layoutY="814.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GRAND ITALIANO PIZZA" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="720.0" layoutY="813.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEMONADE" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="910.0" layoutY="814.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHICKEN BURGER" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="206.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="439.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="668.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="897.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="206.0" layoutY="855.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="439.0" layoutY="854.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="680.0" layoutY="853.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="897.0" layoutY="853.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" wrappingWidth="195.00390625">
+                     <font>
+                        <Font name="Bell MT" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="271.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$15.30">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="504.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$23.99">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="732.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$13.80">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="957.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$16.99">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="962.0" layoutY="935.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$14.35">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="744.0" layoutY="935.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5.00">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="504.0" layoutY="935.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$21.30">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="269.0" layoutY="935.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$11.50">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="4589.0" prefHeight="700.0" prefWidth="1330.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Text fill="WHITE" layoutX="600.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GALLERY">
+                     <font>
+                        <Font name="Arial Black" size="25.0" />
+                     </font></Text>
+                  <AnchorPane layoutX="502.0" layoutY="12.0" prefHeight="80.0" prefWidth="78.0">
+                     <children>
+                        <ImageView layoutX="4.0" layoutY="7.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="3.0" layoutY="11.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="112.0" layoutY="162.0">
+                     <image>
+                        <Image url="@gallery-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="462.0" layoutY="162.0">
+                     <image>
+                        <Image url="@gallery-2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="812.0" layoutY="162.0">
+                     <image>
+                        <Image url="@gallery-3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="812.0" layoutY="392.0">
+                     <image>
+                        <Image url="@gallery-6.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="462.0" layoutY="392.0">
+                     <image>
+                        <Image url="@gallery-5.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="112.0" layoutY="392.0">
+                     <image>
+                        <Image url="@gallery-4.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="SW_RESIZE" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutY="5289.0" prefHeight="700.0" prefWidth="1330.0">
+               <children>
+                  <ImageView fitHeight="700.0" fitWidth="1330.0">
+                     <image>
+                        <Image url="@bookTable.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="518.0" layoutY="117.0" prefHeight="466.0" prefWidth="457.0" style="-fx-background-color: #635d5d;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <Text fill="WHITE" layoutX="140.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book a Table ">
+                           <font>
+                              <Font name="Bauhaus 93" size="29.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="37.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date to book for:">
+                           <font>
+                              <Font name="Bell MT" size="19.0" />
+                           </font>
+                        </Text>
+                        <DatePicker layoutX="37.0" layoutY="108.0" prefHeight="31.0" prefWidth="249.0" />
+                        <Text fill="WHITE" layoutX="37.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. of people:">
+                           <font>
+                              <Font name="Bell MT" size="19.0" />
+                           </font>
+                        </Text>
+                        <ComboBox layoutX="37.0" layoutY="293.0" prefWidth="150.0" />
+                        <TextField layoutX="38.0" layoutY="200.0" />
+                        <Text fill="WHITE" layoutX="37.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time to book for:">
+                           <font>
+                              <Font name="Bell MT" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="37.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+                           <font>
+                              <Font name="Bell MT" size="19.0" />
+                           </font>
+                        </Text>
+                        <TextField layoutX="38.0" layoutY="383.0" />
+                        <Button layoutX="342.0" layoutY="396.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="66.0" style="-fx-background-color: #F0E68C;" text="Button" />
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="5989.0" prefHeight="450.0" prefWidth="1330.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Text fill="WHITE" layoutX="654.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACTS">
+                     <font>
+                        <Font name="Arial Black" size="28.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane layoutX="529.0" layoutY="14.0" prefHeight="84.0" prefWidth="94.0">
+                     <children>
+                        <ImageView layoutX="5.0" layoutY="16.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView layoutX="7.0" layoutY="11.0">
+                           <image>
+                              <Image url="@bg-title.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fill="WHITE" layoutX="192.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location:">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="389.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone:">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="551.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="535.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="info@restfood.com">
+                     <font>
+                        <Font name="Bell MT" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="207.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esentai Moll 777/Alfarabi-101" wrappingWidth="64.634765625">
+                     <font>
+                        <Font name="Bell MT" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#ffd900" layoutX="377.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8700-700-00-07" wrappingWidth="89.625">
+                     <font>
+                        <Font name="Bell MT" size="20.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="818.0" layoutY="256.0" text="https://www.youtube.com/watch?v=heWrzu1przw" />
+                  <Text fill="WHITE" layoutX="818.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Route:">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

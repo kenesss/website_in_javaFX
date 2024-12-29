@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1330.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softfinalproject.ThirdPageController">
+   <children>
+      <Text fill="WHITE" layoutX="606.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OUR BEST CHEF">
+         <font>
+            <Font name="Arial Black" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="431.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores." textAlignment="CENTER" wrappingWidth="516.69091796875">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="327.0" layoutY="11.0" prefHeight="71.0" prefWidth="85.0">
+         <children>
+            <ImageView layoutX="184.0" layoutY="14.0">
+               <image>
+                  <Image url="@bg-title.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="298.0" layoutY="211.0" prefHeight="317.0" prefWidth="243.0">
+         <children>
+            <ImageView fitHeight="317.0" fitWidth="243.0" layoutX="51.0" layoutY="-1.0">
+               <image>
+                  <Image url="@chef-1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="566.0" layoutY="211.0" prefHeight="317.0" prefWidth="243.0">
+         <children>
+            <ImageView fitHeight="317.0" fitWidth="243.0" layoutX="92.0" layoutY="-7.0">
+               <image>
+                  <Image url="@chef-2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="832.0" layoutY="211.0" prefHeight="317.0" prefWidth="243.0" />
+      <AnchorPane layoutX="31.0" layoutY="211.0" prefHeight="317.0" prefWidth="243.0">
+         <children>
+            <ImageView fitHeight="317.0" fitWidth="243.0" layoutX="16.0">
+               <image>
+                  <Image url="@chef-4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="1044.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marco Pierre White">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="981.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He has been part of several super hit television shows like MasterChef Australia and Hell’s Kitchen.He is also the youngest chef to be awarded 3 Michelin stars." textAlignment="CENTER" wrappingWidth="251.10009765624994">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="711.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Charlie Trotter">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="659.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Charlie is an American chef from Chicago and is one of the most popular TV chefs out there.She is also well known for her successful show PBS." textAlignment="CENTER" wrappingWidth="251.10009765624994">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="425.0" layoutY="555.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paul Bocuse">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="355.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He was actively involved in the Chef’s world even at the age of 92. He took his last breath on 20th January 2018. A lot of his students and followers are committed to taking the legacy forward in the decades to come." textAlignment="CENTER" wrappingWidth="251.10009765624994">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="106.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anthony Bourdain">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="44.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He graduated from the Culinary School of America and then worked in several classy restaurants. He maintained a larger-than-life image in the restaurant fraternity of New York City and globally." textAlignment="CENTER" wrappingWidth="251.10009765624994">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="Home" layoutX="50.0" layoutY="35.0" mnemonicParsing="false" onAction="#HomeButtonPage" prefHeight="41.0" prefWidth="146.0" style="-fx-background-color: #ffd900;" text="HOME" />
+      <ImageView fitHeight="317.0" fitWidth="243.0" layoutX="1002.0" layoutY="202.0">
+         <image>
+            <Image url="@chef-3.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
