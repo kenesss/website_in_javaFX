@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1330.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softfinalproject.BookTableController">
+   <children>
+      <ImageView fitHeight="726.0" fitWidth="2186.0" layoutX="-560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@82220-downriggers_dining-2800x900.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="336.0" layoutY="74.0" prefHeight="586.0" prefWidth="606.0" style="-fx-background-color: #635d5d;">
+         <children>
+            <Button fx:id="Book" layoutX="420.0" layoutY="503.0" mnemonicParsing="false" onAction="#setOnAction" prefHeight="52.0" prefWidth="149.0" style="-fx-background-color: #F0E68C; -fx-background-radius: 20;" text="BOOK">
+               <font>
+                  <Font name="Bodoni MT Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="215.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book a Table">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="39.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reserve Name:">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="reserveName" layoutX="39.0" layoutY="86.0" prefHeight="39.0" prefWidth="398.0" />
+            <Text fill="WHITE" layoutX="39.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Table Number">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tableNum" layoutX="39.0" layoutY="169.0" prefHeight="39.0" prefWidth="398.0" />
+            <Text fill="WHITE" layoutX="39.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date to book for:">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Text>
+            <DatePicker fx:id="datePicker" layoutX="39.0" layoutY="249.0" prefHeight="39.0" prefWidth="398.0" />
+            <Text fill="WHITE" layoutX="37.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time to book for:">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="hourComboBox" layoutX="39.0" layoutY="340.0" prefHeight="39.0" prefWidth="398.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="Home" layoutX="35.0" layoutY="35.0" mnemonicParsing="false" onAction="#HomePageButton" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #ffd900;" text="HOME">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

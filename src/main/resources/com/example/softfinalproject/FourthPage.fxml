@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1330.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softfinalproject.FourthPageController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="706.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg-pattern.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="750.0" fitWidth="629.0" layoutX="700.0">
+         <image>
+            <Image url="@bg-pattern.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="627.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OUR MENU">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="526.0" layoutY="14.0" prefHeight="72.0" prefWidth="89.0">
+         <children>
+            <ImageView layoutX="5.0" layoutY="2.0">
+               <image>
+                  <Image url="@bg-title.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="386.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#All" prefHeight="11.0" prefWidth="67.0" style="-fx-background-color: #ffd900;" text="ALL">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="466.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#Spicy" prefHeight="33.0" prefWidth="89.0" style="-fx-background-color: #ffd900;" text="Spicy">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="565.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#Classic" prefHeight="33.0" prefWidth="89.0" style="-fx-background-color: #ffd900;" text="Classic">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="664.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#Cheese" prefHeight="33.0" prefWidth="105.0" style="-fx-background-color: #ffd900;" text="Cheese">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="779.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#Chicken" prefHeight="33.0" prefWidth="105.0" style="-fx-background-color: #ffd900;" text="Chicken ">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="195.0" layoutY="151.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image1" fitHeight="200.0" fitWidth="204.0" layoutX="-5.0" layoutY="-1.0">
+               <image>
+                  <Image url="@product-1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="454.0" layoutY="152.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image2" fitHeight="191.0" fitWidth="236.0" layoutY="5.0">
+               <image>
+                  <Image url="@product-2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="708.0" layoutY="152.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image3" fitHeight="200.0" fitWidth="200.0" layoutX="11.0" layoutY="1.0">
+               <image>
+                  <Image url="@product-3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="959.0" layoutY="153.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image4" fitHeight="200.0" fitWidth="200.0" layoutX="-1.0" layoutY="-1.0">
+               <image>
+                  <Image url="@product-4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="197.0" layoutY="452.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image5" fitHeight="200.0" fitWidth="200.0" layoutX="1.0" layoutY="-1.0">
+               <image>
+                  <Image url="@product-5.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="454.0" layoutY="452.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image6" fitHeight="200.0" fitWidth="200.0" layoutX="4.0" layoutY="-5.0">
+               <image>
+                  <Image url="@product-6.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="709.0" layoutY="453.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image7" fitHeight="200.0" fitWidth="200.0" layoutX="4.0" layoutY="-1.0">
+               <image>
+                  <Image url="@msg691773871-60756.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="959.0" layoutY="452.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="Image8" fitHeight="200.0" fitWidth="200.0" layoutY="-1.0">
+               <image>
+                  <Image url="@product-8.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fx:id="FoodName1" fill="WHITE" layoutX="225.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASSIC BURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName2" fill="WHITE" layoutX="526.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE HUMBURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName3" fill="WHITE" layoutX="740.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BURGER SPICY" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName4" fill="WHITE" layoutX="1038.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOUBLE CHEESE" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName5" fill="WHITE" layoutX="225.0" layoutY="666.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHEESE BURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName6" fill="WHITE" layoutX="485.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHICKEN BURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName7" fill="WHITE" layoutX="774.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QAZAQ BURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="FoodName8" fill="WHITE" layoutX="1003.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ANGRY BURGER" visible="false">
+         <font>
+            <Font name="Arial Black" size="11.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description1" fill="WHITE" layoutX="195.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description2" fill="WHITE" layoutX="458.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description3" fill="WHITE" layoutX="708.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description4" fill="WHITE" layoutX="958.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description8" fill="WHITE" layoutX="959.0" layoutY="681.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description7" fill="WHITE" layoutX="709.0" layoutY="681.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description6" fill="WHITE" layoutX="458.0" layoutY="681.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Description5" fill="WHITE" layoutX="197.0" layoutY="681.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit ametconsectetur adipisicing elit." textAlignment="CENTER" visible="false" wrappingWidth="201.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price1" fill="#ffd900" layoutX="266.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2690" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price2" fill="#ffd900" layoutX="529.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$4790" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price3" fill="#ffd900" layoutX="780.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2500" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price4" fill="#ffd900" layoutX="1029.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2600" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price8" fill="#ffd900" layoutX="1030.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3190" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price7" fill="#ffd900" layoutX="780.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2890" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price6" fill="#ffd900" layoutX="526.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3890" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price5" fill="#ffd900" layoutX="260.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1890" visible="false">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="Home" layoutX="39.0" layoutY="26.0" mnemonicParsing="false" onAction="#HomeButtonPage" style="-fx-background-color: #ffd900;" text="HOME" />
+      <Button layoutX="891.0" layoutY="86.0" mnemonicParsing="false" onMouseClicked="#Qazaq" prefHeight="33.0" prefWidth="112.0" style="-fx-background-color: #ffd900;" text="Qazaq ">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
